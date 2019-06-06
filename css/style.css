@@ -1,0 +1,666 @@
+body{
+    font-family: "M PLUS 1p"; 
+}
+
+.background-color-linen{
+    background-color: linen;
+}
+
+header{
+    
+    background-color:white;
+    /* padding-top:20px; */
+    width:100%;
+    height: 70px;
+    position:fixed;
+    top:0;
+    z-index: 10;
+}
+
+.header-wrapper{
+    
+    position:relative;
+    height: 70px;
+}
+
+.header-left{
+    position: absolute;
+    left:0px;
+    top:50%;
+    transform: translateY(-50%);
+    
+}
+
+.header-left img{
+    width:128px;
+}
+
+.subtitle{
+    font-size:.5rem;
+    vertical-align: bottom;
+}
+
+.btn-header{
+    display: block;
+    border-radius: 25px;
+    background-color: orange;
+    padding:10px 30px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right:0px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.btn-header:hover{
+    background-color: violet;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-header-sp{
+    display: none;
+    background-color: orange;
+    padding:10px 10px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right:-0.5rem;
+    top:0;
+    height:60px;
+    width:70px;
+    text-align: center;
+}
+
+.btn-header-sp img{
+    width:20px;
+    margin:0 auto;
+    display:block;
+}
+.btn-header-sp p{
+   font-size:.7rem;
+}
+
+.image-wrapper{
+    padding-top: 70px;
+}
+
+.main-image-cover{
+    height: 500px;
+    background-image: url(../image/main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.main-top-text{
+    font-size: 25px;
+    font-weight:bold;
+    line-height:50px;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.main-logo{
+    width:300px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-bottom-text{
+    font-weight:bold;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.appeal-wrapper{
+    background-color: #ebb94d;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 30px 0px;
+    font-size:1.2rem;
+}
+
+.special-text{
+    color:red;
+    background-color: white;
+    font-size:1rem;
+}
+
+.btn-appeal{
+    display: inline-block;
+    border-radius: 40px;
+    background-color: orange;
+    padding:20px 200px;
+    margin:40px auto;
+    color: white;
+    text-decoration: none;
+    font-size:1.5rem;
+    width:calc(100% - 50px);
+}
+
+.btn-appeal:hover{
+    background-color: violet;
+    text-decoration: none;
+    color: white;
+}
+
+.fb-like{
+    height:22px;
+}
+
+.intro{
+    background-image: url(../image/introbottom.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0 70px;
+
+}
+
+.question-message{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    position:relative;
+    width:90%;
+    margin: 20px auto 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.left-border-box{
+    position:absolute;
+    left:0;
+    top:0;
+    border-top:5px solid orange;
+    border-left:5px solid orange;
+    width:40px;
+    height:40px;
+}
+
+.right-border-box{
+    position:absolute;
+    right:0;
+    bottom:0;
+    border-bottom:5px solid orange;
+    border-right:5px solid orange;
+    width:40px;
+    height:40px;
+}
+
+.intro p{
+    line-height:1.5rem;
+}
+
+.about-circle-wrapper{
+    width:100%;
+    position:relative;
+}
+
+.about-circle{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    background-color: #ebb94d;
+    color:white;
+    line-height:100px;
+    text-align:center;
+    position:absolute;
+ 
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.description{
+    padding:70px 30px;
+    text-align:center;
+    background-color:linen;
+}
+
+.orange-border-box{
+    width: 95%;
+    background-color: white;
+    border: 3px solid orange;
+    border-radius: 10px;
+    margin:50px auto 0;;
+    padding:30px 20px;
+}
+
+.learn-steps{
+    background-image: url(../image/aboutsecondbg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    padding:50px 15px;
+    font-weight:bold;
+    font-size:1.2rem;
+    
+}
+
+.text-orange{
+    color:orange;
+}
+
+.font-size-each-title{
+    font-size:1.6rem;
+}
+
+.step-item{
+    background-color:white;
+    color:black;
+    font-size:.7rem;
+    margin: 30px 10px 0;
+    padding:20px 10px;
+    border-radius: 15px;
+}
+
+.step-number{
+    background-color: #ebb94d;
+    color: white;
+    border-radius: 15px;
+    width:80%;
+    margin:0 auto 20px;
+    font-size: 1rem;
+}
+
+.blue-message{
+    padding:50px 0;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:1.4rem;
+    background-color: cadetblue;
+}
+
+.learn-feature{
+    text-align: center;
+    padding:70px 0;
+}
+
+.text-sm{
+    font-size:.9rem !important;
+}
+
+.text-xs{
+    font-size:.7rem !important;
+}
+
+.text-lg{
+    font-size:1.3rem !important;
+}
+
+.text-xl{
+    font-size:1.8rem !important;
+}
+
+.isara-merit{
+    background-color: linen;
+    padding:70px 0;
+    text-align: center;
+}
+
+.merit-item-img{
+    height:180px;
+}
+.merit-item-img.merit-item-teach{
+   background-image:url(../image/learnfromfreelancer.jpg);
+   background-position:center;
+   background-size: cover;
+}
+.merit-item-img.merit-item-project{
+    background-image:url(../image/learnfromprojects.jpg);
+   background-position:center;
+   background-size: cover;
+}
+.merit-item-img.merit-item-free{
+    background-image:url(../image/actuallyfree.jpg);
+   background-position:center;
+   background-size: cover;
+}
+
+.member{
+    background-image: url(../image/teacherbg.jpg);
+    background-size: cover;
+    background-position:center;
+    color:white;
+    text-align: center;
+    padding:70px 20px;
+}
+
+.member-list{
+    width:100%;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.member-description{
+    border: 1px solid white;
+    padding : 40px 30px;
+    height:100%;
+}
+
+.member-item{
+    width:95%;
+    margin: 0 auto;
+    
+}
+
+
+.member-item img{
+    border-radius: 50%;
+    position: relative;
+    top:20px;
+}
+
+.qa-q{
+    background-color: #ebb94d;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.qa-circle{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    background-color: white;
+    color: #ebb94d;
+    line-height:100px;
+    text-align:center;
+    position: relative;;
+    left:50%;
+    transform: translateX(-50%) ;
+
+}
+.question-message-white{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    position:relative;
+    width:90%;
+    margin: 10px auto 0px;
+    padding: 20px 20px;
+    text-align: center;
+    color:white;
+}
+
+
+.left-border-box-white{
+    position:absolute;
+    left:0;
+    top:0;
+    border-top:5px solid white;
+    border-left:5px solid white;
+    width:40px;
+    height:40px;
+}
+
+.right-border-box-white{
+    position:absolute;
+    right:0;
+    bottom:0;
+    border-bottom:5px solid white;
+    border-right:5px solid white;
+    width:40px;
+    height:40px;
+}
+
+.triangle{
+    border-top: 30px solid #ebb94d;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    width:0;
+    margin:0 auto;
+}
+
+.qa-a{
+    text-align: center;
+    padding: 70px 0;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+.interview-image{
+    width: 100%;
+    border: 2px solid #ebb94d;
+}
+
+.learn-curriculum{
+    background-image: url(../image/classbg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:70px 0;
+    text-align: center;
+    color: white;
+}
+
+.curriculum-table{
+    border:2px solid teal;
+    width:100%;
+    margin-bottom:15px;
+}
+
+.curriculum-table th{
+    background-color: teal;
+    padding:15px 0;
+}
+.curriculum-table td{
+    background-color: white;
+    color: black;
+    padding:10px 0;
+    font-size:.8rem;
+    font-weight: bold;
+}
+
+.curriculum-table tr{
+    border: 1px solid gray;
+   
+}
+
+.learn-flow{
+    text-align: center;
+    padding:70px 0;
+}
+
+.flow-item{
+    background-color:linen;
+    padding:40px 50px;
+}
+
+.flow-items{
+    max-width: calc(100% - 40px);
+    margin: 30px auto;
+}
+
+.flow-border-box-top{
+    width:70%;
+    height:30px;
+    border-left:2px solid #ebb94d;
+    border-bottom: 1px solid #ebb94d;
+    margin: 0 auto;
+}
+
+.flow-border-box-bottom{
+    width:70%;
+    height:30px;
+    border-right:2px solid #ebb94d;
+    border-top: 1px solid #ebb94d;
+    margin: 0 auto;
+}
+
+.bangkok-reason{
+    background-image: url(../image/bangkokbg.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    padding:90px 0;
+}
+
+.bangkok-reason li{
+    margin-bottom:10px;
+}
+
+.text-color{
+    color:white;
+}
+
+.join-merit-message{
+    background-color: #ebb94d;
+    font-size:1.5rem;
+    width:50%;
+    margin: 70px auto 0;
+    position:relative;
+    top:30px;
+}
+
+.join-merit{
+    background-color: #ebb94d;
+    padding:70px 0;
+    text-align: center;
+}
+
+.join-merit-list{
+    border: 1px solid white;
+    max-width:calc(100% - 60px);
+    width:100%;
+    margin: 20px auto 0;
+    padding:30px 0;
+}
+
+.join-merit-item{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background-color:white;
+    margin:0 auto;
+    padding:50px 20px;
+}
+
+.isara-purpose{
+    background-image: url(../image/specialdetail.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:70px 0;
+    color:white;
+}
+
+.founder-message{
+    padding:70px 0;
+    text-align: center;
+}
+
+.founder-message li{
+    margin-bottom:15px;
+}
+
+.contact-form{
+    padding:70px 0;
+    text-align: center;
+    background-color:#ebb94d;
+}
+
+.btn-contact-form{
+    width:100%;
+    height:60px;
+    border-radius: 30px;
+    background-color:coral;
+    color:white;
+    border:none;
+    margin-top:50px;
+    font-weight:bold;
+    font-size:1.5rem;
+    letter-spacing: 1rem;
+}
+
+.faq{
+    padding:70px 0;
+    text-align: center;
+}
+
+.faq-toggle-btn:after {
+    content: " \f078";
+    font-family: "Font Awesome 5 Free";
+    float:right;
+  }
+  /*aria-expanded="true"はコンテンツが開いている状態のときに動的に記述される要素です。*/
+  .faq-toggle-btn[aria-expanded="true"]:after {
+    content: " \f077";
+    font-family: "Font Awesome 5 Free";
+    float:right;
+  }
+
+.faq-toggle-btn{
+    padding:15px 30px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-align: left;
+    border : 1px solid #e5e5e5;
+    width :100%;
+    display:block;
+}
+.flow-toggle-btn:after {
+    content: " \f078";
+    font-family: "Font Awesome 5 Free";
+    float:right;
+    margin-top:7px;
+}
+/*aria-expanded="true"はコンテンツが開いている状態のときに動的に記述される要素です。*/
+.flow-toggle-btn[aria-expanded="true"]:after {
+    content: " \f077";
+    font-family: "Font Awesome 5 Free";
+    float:right;
+}
+
+.flow-toggle-btn{
+    padding:15px 15px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-align: left;
+    background-color: linen;
+    width :100%;
+    display:block;
+}
+.flow-toggle-btn :hover{
+    text-decoration: none;
+    color:black;
+  
+}
+.flow-toggle-btn img{
+    height:35px;
+    width:35px;
+    margin-right:15px;
+}
+
+footer{
+    background-color:#e5e5e5;
+    padding:50px 0;
+    text-align: center;
+    font-size:.7rem;
+}
+
+.sns li{
+    display:inline-block;
+}
+.sns{
+    list-style: none;
+}
+
+.fb_iframe_widget > span {
+vertical-align: baseline !important;
+}
